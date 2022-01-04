@@ -4,9 +4,11 @@ body {
       h1 {  
         font-family: verdana;
           font-size: 50px;
+            color: white;
           }
           p {
             font-family: Verdana;
+             color: white;
           }
 ------
 <style type="text/css">
