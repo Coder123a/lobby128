@@ -1,0 +1,386 @@
+<html>
+<head><meta charset="euc-jp">
+
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=1.0,Transition=12)">
+<meta http-equiv="Page-Exit" content="revealTrans(Duration=1.0,Transition=12)">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Goglogo Search Engine - Gologo</title>
+<link rel='shortcut icon' href='https://goglogo.net/favicon.ico' type='image/x-icon' />
+<meta http-equiv='content-language' content='en-gb'>
+
+<!-- Place this render call where appropriate -->
+
+<META NAME="Description" CONTENT="Goglogo, goog, gologo, Personalize your search, gog logo, how to change Google logo.">
+<META NAME="Keywords" CONTENT="Goglogo, gologo, google loco, Googlogo, goglogo.com, goog, logo maker, google logo, change google logo, how to change google logo">
+
+<meta property="og:title" content="Goglogo's Search Engine" />
+<meta property="og:image" content="https://goglogo.net/styles/google/G0.gif "/>
+<meta property="og:site_name" content="Goglogo: Create your own search engine"/>
+<meta property="og:description" content="Goglogo Search Engine. You can also Create Your Own Search Engine. Share it with your Facebook friends. "/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-15J8DRH6QS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-15J8DRH6QS');
+</script>
+
+<style>
+.button {
+  background-color: #3D85C6;
+  border: 1px solid;
+  border-color:blue;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+<!--
+p{font-family:arial,sans-serif;}
+a{font-family:arial,sans-serif; position:relative;}
+.q{color:#0000cc;}
+.pyshp
+{
+  width:175px;
+  height:79px;
+  font-size:0px;
+  display:block;
+  position:center;
+}
+-->
+input.gsc-search-button {
+    font-family: inherit;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 0px;
+    height: 30px !important;
+    }
+    .gsc-input {
+    
+    height:30px;
+}
+.searchbox {
+font-family: arial,sans-serif;
+width:500px;
+}
+.linksdiv {
+font-size:14px;
+text-align:left;
+float:left;
+width:50%;
+top:5px;
+left:10px;
+margin-top:0px;
+height:50px;
+position:absolute;
+}
+.languagediv {
+text-align:right;
+float:right;
+width:50%;
+top:0;
+right:0;
+margin-top:0px;
+height:50px;
+position:absolute;
+}
+.logodiv {
+text-align:center;
+margin-top:50px;
+margin: 0 auto;
+height:100px;
+max-width:700px;
+text-align:center;
+}
+.logodiv img {
+max-width:80px;
+max-height:80px;
+width: auto;
+height: auto;
+}
+
+.mydiv1 {
+top:10%;
+left:25%;
+width:50%;
+position: fixed;
+}
+
+.fullwidthdiv {
+padding-top:50px;
+width:600px;
+height:50px;
+margin: 0 auto;
+text-align:center;
+}
+.addthisbutton {
+width:150px;
+height:20px;
+
+}
+
+@media only screen and (max-device-width: 480px) {
+
+.fullwidthdiv
+{
+width:100%;
+height:50px;
+
+}
+.divsearchcode
+{
+width:100%;
+height:50px;
+}
+.languagediv {
+text-align:right;
+float:right;
+width:100%;
+height:50px;
+margin-top:0px;
+}
+.logodiv {
+text-align:center;
+width:100%;
+height:70px;
+margin: 0 auto;
+text-align:center;
+margin-top:50px;
+
+}
+.logodiv img {
+max-width:40px;
+max-height:40px;
+width: auto;
+height: auto;
+}
+
+.mydiv1 {
+top:10%;
+left:10%;
+width:80%;
+position: fixed;"
+}
+
+}
+
+</style>
+
+<style type="text/css">
+<!--
+
+a:link 
+{
+	color: #0000cc;
+}
+a:visited 
+{
+	color: #0000cc;
+}
+-->
+.languagepicker {
+	background-color: #FFF;
+	display: inline-block;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+	transition: all .3s ease;
+	margin: 0 0 10px 0;
+	vertical-align: top;
+	float: right;
+}
+
+.languagepicker:hover {
+	/* don't forget the 1px border */
+	height: 81px;
+}
+
+.languagepicker a{
+	color: #000;
+	text-decoration: none;
+}
+
+.languagepicker li {
+	display: block;
+	padding: 0px 20px;
+	line-height: 40px;
+	border-top: 1px solid #EEE;
+}
+
+.languagepicker li:hover{
+	background-color: #EEE;
+}
+
+.languagepicker a:first-child li {
+	border: none;
+	background: #FFF !important;
+}
+
+.languagepicker li img {
+	margin-right: 5px;
+}
+
+.roundborders {
+	border-radius: 5px;
+}
+
+.large:hover {
+	/* 
+	don't forget the 1px border!
+	The first language is 40px heigh, 
+	the others are 41px
+	*/
+	height: 245px;
+}
+/* unvisited link */
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+            #boddy {
+                -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+                -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+                -o-transform:skew(0deg, 180deg) scale(-1, -1);
+                filter:progid:DXImageTransform.Microsoft.BasicImage(mirror=1, rotation=2);
+            }
+</style>
+
+<script type="text/javascript">
+function setlanguage(lang){
+    localStorage.setItem('language', lang);
+    localStorage.setItem('languageimg', lang + '.png');
+    //document.location.reload(true)
+    if(lang == 'English'){
+    window.location.href = "https://goglogo.net/search.php"+ location.search;
+    }
+    if(lang == 'German'){
+    window.location.href = "https://goglogo.net/germansearch.php"+ location.search;
+    }
+    if(lang == 'Espanol'){
+    window.location.href = "https://goglogo.net/spanishsearch.php"+ location.search;
+    }
+}
+</script>
+
+</head>
+<body>
+<!-- Email Form Begin -->
+<div style="height:50px;width:100%"><div class="linksdiv">
+    <input type="button" id="loco-button" value="Change Logo" onclick="document.location.href = 'https://goglogo.net'"/>
+    </div>
+<div class="languagediv">
+
+ <ul class="languagepicker roundborders large"  id="myList">
+    <li onclick="setlanguage('English');"><img src="https://goglogo.net/English.png"/>English</li>
+	<li onclick="setlanguage('German');"><img src="https://goglogo.net/German.png"/>German</li>
+	<li onclick="setlanguage('Espanol');"><img src="https://goglogo.net/Espanol.png"/>Español</li>
+</ul>   
+    </div></div>
+    
+    <script type = "text/javascript">
+    var getlanguage = localStorage.getItem("language");
+    var getlanguageimg = localStorage.getItem("languageimg");
+    if(getlanguage !=='' && getlanguage !== undefined && getlanguage !== null){
+    var newItem = document.createElement("LI");
+    newItem.innerHTML = "<img src='https://goglogo.net/"+ getlanguageimg +"' />" +getlanguage;
+    var list = document.getElementById("myList");
+    list.insertBefore(newItem, list.childNodes[0]);
+    }
+    </script>
+<div class="logodiv">
+	
+                    <h1>
+  <a href="https://goglogo.net/">
+    <img  style="max-width: 90%;max-height: 90%;" alt="goglogo" src="https://goglogo.net/goglogo.png"/>
+  </a>
+</h1>
+
+</div>
+
+<div class="fullwidthdiv">
+<div class="divsearchcode">
+<script async src="https://cse.google.com/cse.js?cx=partner-pub-5095806646038415:2745867433"></script>
+<div class="gcse-searchbox-only" data-resultsUrl="https://goglogo.net/searchresults.php" data-queryParameterName="q">
+    </div>
+    </div></div>
+<br /><br />
+
+<div style="height: 35px;  width: 100%; padding:0px; margin:0 auto; margin-top:50px; text-align:center;">
+<script>
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+var name1=getCookie("name");
+var style1=getCookie("style");
+function fbs_click() {u=location.href;t=document.title;window.open('https://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'%3Fname%3D'+encodeURIComponent(name1)+'%26style%3D'+encodeURIComponent(style1),'sharer','toolbar=0,status=0,width=626,height=436');return false;}
+
+function twitter_click() {u=location.href;t=document.title;window.open('https://twitter.com/share?url='+encodeURIComponent(u)+'?name='+encodeURIComponent(name1)+'%26style='+encodeURIComponent(style1)+'&text='+encodeURIComponent('Create your own seacrh engine like '+ t)+'&via=GoglogoNet','targetWindow','toolbar=0,status=0,width=626,height=436');return false;}
+
+</script>
+
+<a href="https://twitter.com/GoglogoNet?ref_src=twsrc%5Etfw" 
+  target="popup" 
+  onclick="window.open('https://twitter.com/GoglogoNet?ref_src=twsrc%5Etfw','popup','width=600,height=600'); return false;">
+   <img style="width:108px; height:35px;" src="twitter-follow.png" /></a>
+
+<!-- Facebook -->
+<img style="width:108px; height:35px;" onclick="return fbs_click()" src="fb.png" />
+
+<!-- Twitter Share -->
+<img style="width:108px; height:35px;" onclick="return twitter_click()" src="tweet.png" />
+
+</div>
+<br />
+<div style="height: 320px;  width: 100%; padding:0px; margin:0px; margin-top:20px; margin-bottom:50px; text-align:center;">
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Goglogo.net Search Page -->
+ <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5095806646038415"
+     data-ad-slot="2133561712"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div style="height: 70px;  width: 100%; padding:0px; margin:10px; text-align:center;">
+<iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFunonnett&amp;width=200&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId=112292365562910" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:190px; height:62px;" allowTransparency="true"></iframe></div>
+	
+
+<div style="text-align:justify;margin:20px;">
