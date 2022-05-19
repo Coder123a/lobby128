@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <div class="w3-container w3-black">
+        <img class="img" src="Screenshot_20220410-193533_Canva.jpg">
+         <a href="index.html"><button style="font-family: 'Smooch Sans', sans-serif;" class="btn1">Home</button></a>
+            <a href="about.html"><button style="font-family: 'Smooch Sans', sans-serif;" class="btn1">About</button></a>
+              <a href="form.html"><button style="font-family: 'Smooch Sans', sans-serif;" class="btn1">Forms</button></a>
+                <a href="chat.html"><button style="font-family: 'Smooch Sans', sans-serif;" class="btn1">Chat</button></a>
+  <link href="https://cdn.jsdelivr.net/npm/@weavy/dropin-js/dist/weavy-dropin.css" rel="stylesheet" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/npm/@weavy/dropin-js/dist/weavy-dropin.js">
+</script>
+
+  <title></title>
+  <div id="messenger" style="height:600px;border:1px solid black;"></div>
+</head>
+<body>
+  <script>
+  const weavy = new Weavy({
+    url: "https://chatlobby128.weavy.io",
+    jwt: () => "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnZXQud2VhdnkuaW8iLCJzdWIiOjE5NjYsImRpciI6IlNhbmRib3giLCJnaXZlbl9uYW1lIjoiQWRpdHlhIiwiZmFtaWx5X25hbWUiOiJLb2xheSIsImVtYWlsIjoia29sYXlhZGl0eWEwQGdtYWlsLmNvbSIsImV4cCI6MTY1MzQ1MDQxNn0.YOA0VNQH3VDeKb8HNCAkmXird_RY2RqzTtjyFlx8kmY"   
+  });
+
+  const messenger = weavy.app({
+    id: "messenger-demo",
+    type: "messenger",    
+    container: "#messenger"
+  });
+</script>
+
+</body>
+<script>
+ 
+</script>
