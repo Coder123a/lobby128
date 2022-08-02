@@ -1,0 +1,42 @@
+body {
+    background-image: url('lobby.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+   font-family: 'Open Sans', sans-serif;
+  }
+.card {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 700px;
+    box-shadow: 5px 10px 20px;
+    width: 300px;
+    height: 300px;
+    font-family: 'Open Sans', sans-serif;
+ }
+.btn1 {
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: #FFF;
+  border-radius: 20px;
+}
+.card2 {
+  box-shadow: 5px 10px 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.empty {
+  padding: 30px;
+}
+.menu {
+  padding: 10px;
+ 
+}
